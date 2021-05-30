@@ -1,0 +1,16 @@
+https://forum.arduino.cc/t/debouncing-an-interrupt-trigger/45110/2
+https://www.arduino.cc/reference/en/language/functions/math/map/
+https://www.arduino.cc/reference/en/language/variables/data-types/string/functions/concat/
+https://stackoverflow.com/questions/12332975/installing-python-module-within-code
+https://stackoverflow.com/questions/1969240/mapping-a-range-of-values-to-another
+https://stackoverflow.com/questions/16509569/python-readline-empty-lines
+https://www.arduino.cc/reference/en/language/functions/communication/serial/read/
+https://create.arduino.cc/projecthub/ansh2919/serial-communication-between-python-and-arduino-e7cce0
+https://stackoverflow.com/questions/65011660/how-can-i-get-the-title-of-the-currently-playing-media-in-windows-10-with-python
+https://pyautogui.readthedocs.io/en/latest/keyboard.html#keyboard-keys
+https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
+http://electronoobs.com/eng_arduino_tut132.php
+https://forum.arduino.cc/t/serial-input-basics-updated/382007/2
+https://www.arduino.cc/en/Tutorial/LibraryExamples/LiquidCrystalSerialDisplay
+https://www.arduino.cc/en/Tutorial/LibraryExamples/LiquidCrystalScroll
+https://www.deviceplus.com/arduino/the-basics-of-arduino-adjusting-led-brightness/
