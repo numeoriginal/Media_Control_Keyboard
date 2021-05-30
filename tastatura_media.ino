@@ -94,7 +94,6 @@ void pause_music()
   unsigned long interrupt_time = millis();
   if (interrupt_time - last_interrupt_time > 200){
     Serial.println("pause"); // send pause signal
-    //print_command("Pause"); 
     digitalWrite(led_pause, HIGH); // set pause indicator high
     digitalWrite(led_resume, LOW); // set resume indicator low
     digitalWrite(led_mute_blue, LOW); // set mute indicator low
@@ -107,7 +106,6 @@ void resume_music()
   unsigned long interrupt_time = millis();
   if (interrupt_time - last_interrupt_time > 200){
     Serial.println("resume"); // send pause signal 
-    //print_command("Play");
     digitalWrite(led_resume, HIGH); // set pause indicator high
     digitalWrite(led_pause, LOW); // set resume indicator low
     digitalWrite(led_mute_blue, LOW); // set mute indicator low
@@ -145,7 +143,6 @@ void loop() {
     if (last_vol < map_pot_value) { // verify if volume went up or down
       while(!Serial.available()); // wait for serial
       Serial.println("Up"); // send volume up signal
-      //print_command("Up");
       if (digitalRead(led_mute_blue) == HIGH) {
         mute++;
         digitalWrite(led_mute_green, HIGH); // Indicate unmuted
@@ -155,7 +152,6 @@ void loop() {
     else {
       while(!Serial.available()); // wait for serial
       Serial.println("Down"); // send volume down signal
-      //print_command("Down");
       if (digitalRead(led_mute_blue) == HIGH) {
         mute++;
         digitalWrite(led_mute_green, HIGH); // Indicate unmuted
@@ -172,13 +168,11 @@ void loop() {
     if (map_joyX_value == 1){ // verify joystick going left 
       while(!Serial.available()); // wait for serial
       Serial.println("prev"); // send previous song signal
-      //print_command("Prev");
       blink_led();
     }
     if (map_joyX_value == 3){ // verify joystcik going right
       while(!Serial.available()); // wait for serial
       Serial.println("next"); // send next song signal
-      //print_command("Next");
       blink_led();
     }
     last_X_pos = map_joyX_value;
@@ -191,13 +185,11 @@ void loop() {
     if (map_joyY_value == 1){ // verify joystick going left 
       while(!Serial.available()); // wait for serial
       Serial.println("stop"); // send previous song signal
-      //print_command("Stop");
       blink_led();
     }
     if (map_joyY_value == 3){ // verify joystcik going right
       while(!Serial.available()); // wait for serial
       Serial.println("win"); // send next song signal
-      //print_command("Win");
       blink_led();
     }
     last_Y_pos = map_joyY_value; 
