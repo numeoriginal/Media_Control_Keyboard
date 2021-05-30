@@ -1,3 +1,4 @@
+// Carp Constantin - Media Control Keyboard
 #include <LiquidCrystal.h>
 
 const byte potentiometru = 1; // potentiometru sensor pin A1
