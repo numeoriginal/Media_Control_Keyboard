@@ -1,5 +1,5 @@
 # Media_Control_Keyboard
-https://ocw.cs.pub.ro/courses/pm/prj2021/dbrigalda/tastatura_multimedia?&amp;#software_design
+https://ocw.cs.pub.ro/courses/pm/prj2021/dbrigalda/tastatura_multimedia
 
 Media Controll Keyboard based on Arduino Uno.
 In the main loop we are reading the data from potentiometre maping the values to a smaller range for a easier manipulation.
