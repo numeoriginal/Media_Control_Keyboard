@@ -19,13 +19,6 @@ const byte led_song_yellow = 19; // yellow prev/next led pin A5->D19
 int16_t last_vol;
 int16_t last_X_pos;
 int16_t last_Y_pos;
-String fst;
-String snd;
-byte mute;
-String x;
-const byte numChars = 32;
-char receivedChars[numChars];
-boolean newData = false;
 
 const int rs = 9, en = 8, d4 = 4, d5 = 5, d6 = 6, d7 = 7; // LCD pins
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
@@ -56,8 +49,6 @@ void setup() {
   last_X_pos = 0;
   last_Y_pos = 0;
   mute = 0;
-  fst = ' ';
-  snd = ' ';
  
   // manul interrupts
   PCICR |= B00000001; //Bit0 = 1 -> "PCIE0" enabeled (PCINT0 to PCINT7)
