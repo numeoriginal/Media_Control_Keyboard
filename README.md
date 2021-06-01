@@ -2,6 +2,7 @@
 https://ocw.cs.pub.ro/courses/pm/prj2021/dbrigalda/tastatura_multimedia
 
 Media Controll Keyboard based on Arduino Uno.
+
 Python:
 
 -map_volume(value, left_min, left_max, right_min, right_max) -- maps the potentiometer value map(value_to_be_mapped,0, 100, 0, 65535) for the nircmd which use 0-65535 range.
