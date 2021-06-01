@@ -143,7 +143,7 @@ void loop() {
     fst = true;
     last_vol = map_pot_value; // save last volume val manipulation
   }
-  map_pot_led = map(map_pot_value, 0, 51, 0, 255); // map the values
+  map_pot_led = map(map_pot_value, 0, 100, 0, 255); // map the values
   analogWrite(led_vol_indic, map_pot_led);
   if (map_pot_value != last_vol) { // check if there was a change
     if (last_vol < map_pot_value) { // verify if volume went up or down
