@@ -14,3 +14,4 @@ https://forum.arduino.cc/t/serial-input-basics-updated/382007/2
 https://www.arduino.cc/en/Tutorial/LibraryExamples/LiquidCrystalSerialDisplay
 https://www.arduino.cc/en/Tutorial/LibraryExamples/LiquidCrystalScroll
 https://www.deviceplus.com/arduino/the-basics-of-arduino-adjusting-led-brightness/
+https://www.nirsoft.net/utils/nircmd.html
