@@ -2,20 +2,20 @@
 
 #include <LiquidCrystal.h>
 
-const byte potentiometru = 1; // potentiometru sensor pin A1
-const byte X_axis = 2; // joystick x axis pin A2
-const byte Y_axis = 3; // joystick y axis pin A3
+#define potentiometru 1 // potentiometru sensor pin A1
+#define X_axis 2 // joystick x axis pin A2
+#define Y_axis 3 // joystick y axis pin A3
 
-const byte button_pause = 3; // pause button digital pin 3
-const byte button_resume = 2; // resume button digital pin 2
-const byte button_mute = 12; // mute button digital pin 12
+#define button_pause  3 // pause button digital pin 3
+#define button_resume  2 // resume button digital pin 2
+#define button_mute  12 // mute button digital pin 12
 
-const byte led_vol_indic = 5; // red vol indicating led pin 5 pwm
-const byte led_pause = 11; // white pause led pin 11
-const byte led_resume = 10; // red resume led pin 10
-const byte led_mute_blue = 13; // blue mute led pin 13
-const byte led_mute_green = 18; // green mute led pin A4->D18
-const byte led_song_yellow = 19; // yellow prev/next led pin A5->D19
+#define led_vol_indic  5 // red vol indicating led pin 5 pwm
+#define led_pause  11 // white pause led pin 11
+#define led_resume  10 // red resume led pin 10
+#define led_mute_blue  13 // blue mute led pin 13
+#define led_mute_green  18 // green mute led pin A4->D18
+#define led_song_yellow  19 // yellow prev/next led pin A5->D19
 
 int16_t last_vol; // save last potentiometre value
 int16_t last_X_pos; // save last X axis pos
